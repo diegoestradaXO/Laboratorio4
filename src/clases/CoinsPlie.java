@@ -1,3 +1,5 @@
+package clases;
+
 public class CoinsPlie {
     private int [] position;
     private int quantity;

@@ -1,3 +1,5 @@
+package clases;
+
 public class Robot {
     private int [] position;
     private int direction;

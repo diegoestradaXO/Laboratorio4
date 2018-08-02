@@ -1,3 +1,5 @@
+package clases;
+
 public class Wall {
     private int [] position;
 
