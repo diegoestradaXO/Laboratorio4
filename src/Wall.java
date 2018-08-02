@@ -1,9 +1,22 @@
 public class Wall {
-    private int posX;
-    private int posY;
+    private int [] position;
 
-    public Wall(int posX, int posY) {
-        this.posX = posX;
-        this.posY = posY;
+    public Wall(int row, int column) {
+        this.position = new int[2];
+        this.position[0] = row;
+        this.position[1] = column;
     }
+
+    public int[] getPosition(){
+        return this.position;
+    }
+
+    public int getRow(){
+        return this.position[0];
+    }
+
+    public int getColumn(){
+        return this.position[1];
+    }
+
 }

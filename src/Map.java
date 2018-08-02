@@ -18,11 +18,6 @@ public class Map {
         this.coins = new ArrayList<CoinsPlie>();
     }
 
-    public move(){}
-
-    public pick(){}
-
-    //public  rotate(){}
 
     public Robot getRobot() {
         return robot;
@@ -46,5 +41,21 @@ public class Map {
 
     public void setWidth(int width) {
         this.width = width;
+    }
+
+    public ArrayList<Wall> getWalls() {
+        return walls;
+    }
+
+    public void setWalls(ArrayList<Wall> walls) {
+        this.walls = walls;
+    }
+
+    public ArrayList<CoinsPlie> getCoins() {
+        return coins;
+    }
+
+    public void setCoins(ArrayList<CoinsPlie> coins) {
+        this.coins = coins;
     }
 }
